@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MachineLib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CanadianExperienceLib\;CMake Files\MachineLib\;CMake Files\Tests\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\googletest-src\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\;CMake Files\cmake-build-debug\_deps\machinedemolib-src\;CMake Files\MachineTests\;CMake Files\MachineDemo\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MachineLib">
+				<Option output="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/libMachineLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/junchizhu/Downloads/zhujunch/CanadianExperienceLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 MachineLib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MachineLib/fast">
+				<Option output="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/libMachineLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/junchizhu/Downloads/zhujunch/CanadianExperienceLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 MachineLib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Arm.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Arm.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Component.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Component.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Gear.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Gear.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/INegotiator.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/INegotiator.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Lever.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Lever.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Machine.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Machine.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/MachineActual.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/MachineActual.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/MachineDialog.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/MachineDialog.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/MachineFactory.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/MachineFactory.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/MachineStandin.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/MachineStandin.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/MachinesFactory.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/MachinesFactory.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Motor.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Motor.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/MovementSink.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/MovementSink.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/MovementSource.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/MovementSource.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Piston.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Piston.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Polygon.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Polygon.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Rod.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Rod.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/RodSink.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/RodSink.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/RodSource.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/RodSource.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/RotationSink.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/RotationSink.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/RotationSource.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/RotationSource.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Shape.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Shape.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Sink.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Sink.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Source.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/Source.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/WorkingMachine.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/WorkingMachine.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/include/machine-api.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/pch.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/CMakeFiles/MachineLib.dir/cmake_pch.hxx">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/MachineLib/CMakeFiles/MachineLib.dir/cmake_pch.hxx.cxx">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/CanadianExperienceLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CanadianExperienceLib\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MachineLib\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/Tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/_deps/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/_deps/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/_deps/googletest-src/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/_deps/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/_deps/machinedemolib-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\machinedemolib-src\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/cmake-build-debug/_deps/machinedemolib-src/Config.h.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\machinedemolib-src\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MachineTests\"/>
+		</Unit>
+		<Unit filename="/Users/junchizhu/Downloads/zhujunch/MachineDemo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MachineDemo\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

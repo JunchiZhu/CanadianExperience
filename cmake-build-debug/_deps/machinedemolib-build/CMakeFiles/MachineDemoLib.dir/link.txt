@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libMachineDemoLib.a CMakeFiles/MachineDemoLib.dir/MachineDemoBaseApp.cpp.o CMakeFiles/MachineDemoLib.dir/MachineDemoMainFrame.cpp.o CMakeFiles/MachineDemoLib.dir/ControlPanel.cpp.o CMakeFiles/MachineDemoLib.dir/MachineView.cpp.o CMakeFiles/MachineDemoLib.dir/AboutDialog.cpp.o CMakeFiles/MachineDemoLib.dir/Controller.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libMachineDemoLib.a
